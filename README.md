@@ -113,11 +113,13 @@ if(!siftdown_(i, heap_.size())) {
 
 <img src="picture/reactor_epoll.png" style="zoom:61%;" />
 
+<img src="../../BlogFile/Server_Programming/SimpleWebServer/io_struct.png" style="zoom:61%;" />
+
 ----
 
 ### HTTP
 
-HTTP 部分主要处理 用户的 HTTP 的请求并作出响应，其工作流程如下图所示：
+HTTP 部分主要处理 用户的 HTTP 的请求并作出响应，其工作流程如下图所示 :
 
 <img src="picture/http_struct1.png" style="zoom:55%;" />
 
