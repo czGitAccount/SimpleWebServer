@@ -113,7 +113,7 @@ if(!siftdown_(i, heap_.size())) {
 
 <img src="picture/reactor_epoll.png" style="zoom:61%;" />
 
-<img src="../../BlogFile/Server_Programming/SimpleWebServer/io_struct.png" style="zoom:61%;" />
+<img src="picture/io_struct.png" style="zoom:61%;" />
 
 ----
 
