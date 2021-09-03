@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+/*
+ * @Author       : mark
+ * @Date         : 2020-06-15
+ * @copyleft Apache 2.0
+ */ 
+
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
 #ifndef HTTP_CONN_H
 #define HTTP_CONN_H
 

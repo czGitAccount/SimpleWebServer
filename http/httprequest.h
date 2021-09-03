@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+/*
+ * @Author       : mark
+ * @Date         : 2020-06-25
+ * @copyleft Apache 2.0
+ */ 
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
 #ifndef HTTP_REQUEST_H
 #define HTTP_REQUEST_H
 

@@ -113,11 +113,20 @@ if(!siftdown_(i, heap_.size())) {
 
 <img src="picture/reactor_epoll.png" style="zoom:61%;" />
 
+<<<<<<< HEAD
+=======
+<img src="picture/io_struct.png" style="zoom:61%;" />
+
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
 ----
 
 ### HTTP
 
+<<<<<<< HEAD
 HTTP 部分主要处理 用户的 HTTP 的请求并作出响应，其工作流程如下图所示：
+=======
+HTTP 部分主要处理 用户的 HTTP 的请求并作出响应，其工作流程如下图所示 :
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
 
 <img src="picture/http_struct1.png" style="zoom:55%;" />
 

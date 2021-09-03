@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+/*
+ * @Author       : mark
+ * @Date         : 2020-06-15
+ * @copyleft Apache 2.0
+ */ 
+
+// 原作者：mark, 以下为个人学习后进行的复现，增加注释，并进行了部分的修改
+
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
 #ifndef THREADPOOL_H
 #define THREADPOOL_H
 
@@ -8,7 +19,11 @@
 #include <functional>
 class ThreadPool {
 public:
+<<<<<<< HEAD
     explicit ThreadPool(size_t threadCount = 4): pool_(std::make_shared<Pool>()) {
+=======
+    explicit ThreadPool(size_t threadCount = 8): pool_(std::make_shared<Pool>()) {
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
             assert(threadCount > 0);
             for(size_t i = 0; i < threadCount; i++) {
                 // lambda 函数作为线程入口函数
@@ -23,7 +38,11 @@ public:
                             locker.lock();    // 重新加锁
                         } 
                         else if(pool->isClosed) break; // 退出线程，由于线程 detach 所以无需 join
+<<<<<<< HEAD
                         else pool->cond.wait(locker);  // 当前无任务，阻塞
+=======
+                        else pool->cond.wait(locker);  // 当前正忙，无足够的线程使用，阻塞
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
                     }
                 }).detach();
             }
@@ -64,4 +83,8 @@ private:
 };
 
 
+<<<<<<< HEAD
 #endif //THREADPOOL_H
+=======
+#endif //THREADPOOL_H
+>>>>>>> def492361972feedee60578307251dcb6ce473b1

@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+/*
+ * @Author       : mark
+ * @Date         : 2020-06-15
+ * @copyleft Apache 2.0
+ */ 
+
+// 原作者：mark, 以下为个人学习后进行的复现，增加注释，并进行了部分的修改
+
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
 #include "httpconn.h"
 using namespace std;
 // 这三个数据都是类内静态数据，属于类，而不属于对象
@@ -27,7 +38,11 @@ void HttpConn::init(int fd, const sockaddr_in& addr) {
 // 连接关闭
 void HttpConn::Close() {
     response_.UnmapFile();  // response 清空共享内存
+<<<<<<< HEAD
     if(isClose_ == false){  // 如果由于异常原因提前关闭，此时 isClose == true, 不会因为定时器超时再次调用一次
+=======
+    if(isClose_ == false){  // 如果由于非主动原因关闭，isClose == false
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
         isClose_ = true; 
         userCount--;  // 原子操作
         close(fd_);

@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+/*
+ * @Author       : mark
+ * @Date         : 2020-06-17
+ * @copyleft Apache 2.0
+ */ 
+
+// 原作者：mark, 以下为个人学习后进行的复现，增加注释，并进行了部分的修改
+
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
 #ifndef HEAP_TIMER_H
 #define HEAP_TIMER_H
 
@@ -21,7 +32,11 @@ typedef Clock::time_point TimeStamp;
 // 定时器节点
 struct TimerNode {
     int id;
+<<<<<<< HEAD
     TimeStamp expires;    // 过期时间
+=======
+    TimeStamp expires;    // 过期事件
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
     TimeoutCallBack cb;   // 回调函数
     // < 的重载, 可以直接比较定时器节点
     bool operator<(const TimerNode& t) {

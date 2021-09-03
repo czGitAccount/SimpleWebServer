@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+/*
+ * @Author       : mark
+ * @Date         : 2020-06-15
+ * @copyleft Apache 2.0
+ */ 
+// 原作者：mark, 以下为个人学习后进行的复现，增加注释，并进行了部分的修改
+
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
 #ifndef EPOLLER_H
 #define EPOLLER_H
 

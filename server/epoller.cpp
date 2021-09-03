@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+/*
+ * @Author       : mark  
+ * @Date         : 2020-06-19
+ * @copyleft Apache 2.0
+ */ 
+
+// 原作者：mark, 以下为个人学习后进行的复现，增加注释，并进行了部分的修改
+
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
 /*  该部分集成了
     1. Epoller 构造函数，析构函数
     2. AddFd(增) ModFd(改) DelFd(删) 使用 epoll_ctl 函数

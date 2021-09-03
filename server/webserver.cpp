@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 #include "webserver.h"
+=======
+/*
+ * @Author       : mark
+ * @Date         : 2020-06-17
+ * @copyleft Apache 2.0
+ */
+// 原作者：mark, 以下为个人学习后进行的复现，增加注释，并进行了部分的修改
+
+#include "webserver.h"
+
+>>>>>>> def492361972feedee60578307251dcb6ce473b1
 using namespace std;
 // 构造函数初始化相关变量，定时器，线程池，epoll
 WebServer::WebServer(
